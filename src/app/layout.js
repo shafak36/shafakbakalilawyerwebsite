@@ -1,13 +1,14 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Cinzel, Urbanist } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+import { ThemeProvider } from "@mui/material";
+import theme from "@/theme/theme";
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+import "../styles/globals.css";
+
+const cinzel = Cinzel({ variable: "--font-cinzel-serif", subsets: ["latin"] });
+
+const urbanist = Urbanist({
+  variable: "--font-urbanist-sans",
   subsets: ["latin"],
 });
 
@@ -19,8 +20,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+      <body className={`${cinzel.variable} ${urbanist.variable}`}>
+        <ThemeProvider theme={theme}>{children}</ThemeProvider>
       </body>
     </html>
   );

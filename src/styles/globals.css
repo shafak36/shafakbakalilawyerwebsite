@@ -1,0 +1,22 @@
+/* Preloaded Font */
+/* --font-cinzel-serif */
+/* --font-urbanist-sans */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-urbanist-sans), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-cinzel-serif), serif;
+}
