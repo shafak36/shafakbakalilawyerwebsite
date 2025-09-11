@@ -1,9 +1,12 @@
 import { Cinzel, Urbanist } from "next/font/google";
 
 import { ThemeProvider } from "@mui/material";
+
+import Header from "@/components/layout/Header";
+
 import theme from "@/theme/theme";
 
-import "../styles/globals.css";
+import "@/styles/globals.css";
 
 const cinzel = Cinzel({ variable: "--font-cinzel-serif", subsets: ["latin"] });
 
@@ -21,7 +24,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${cinzel.variable} ${urbanist.variable}`}>
-        <ThemeProvider theme={theme}>{children}</ThemeProvider>
+        <ThemeProvider theme={theme}>
+          <Header />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
