@@ -2,6 +2,68 @@
 /* --font-cinzel-serif */
 /* --font-urbanist-sans */
 
+:root {
+  --desktop-max-width: 1440px;
+  --tablet-max-width: 744px;
+  --mobile-max-width: 430px;
+
+  --desktop-padding: 60px;
+  --tablet-padding: 30px;
+  --mobile-padding: 20px;
+
+  --debug-border: 1px dashed red;
+
+  --bg: #f5f5f5;
+  --white: #fff;
+  --grey: #e0e0e0;
+  --black: #000;
+  --primary: #2c5086;
+  --secondary: #3b6ab3;
+  --secondaryLight: #c5d5ec;
+  --secondaryDark: #297d70;
+  --secondaryDarkRGB: rgba(rgba(41, 125, 112));
+  --accent: #ffc857;
+  --accentRGB: rgba(255, 200, 87);
+
+  --bannerOverlayGradient: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+
+  --bannerOverlayGradientToLeft: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+
+  --low-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  --low-light-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
+  --medium-shadow: 0px 0px 8px rgba(0, 0, 0, 0.35);
+  --medium-light-shadow: 0px 0px 8px rgba(255, 255, 255, 0.35);
+  --high-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
+  --high-light-shadow: 0px 0px 16px rgba(255, 255, 255, 0.5);
+
+  --low-rounded: 4px;
+  --medium-rounded: 8px;
+  --high-rounded: 16px;
+  --high-rounded-mui-btn: 32px;
+
+  --z-index-hero-video: 0;
+  --z-index-hero-video-overlay: 1;
+  --z-index-hero-container: 2;
+  --z-index-header: 50;
+  --z-index-header-menu: 100;
+  --z-index-header-mobile-menu: 200;
+  --z-index-chat-bot: 500;
+
+  --viewportHeightHeroDesktop: 95vh;
+  --viewportHeightHeroTablet: 75vh;
+  --viewportHeightHeroMobile: 75vh;
+
+  --viewportHeightPagesHero: 75vh;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,6 +72,7 @@
 
 body {
   font-family: var(--font-urbanist-sans), sans-serif;
+  background-color: var(--bg);
 }
 
 h1,
