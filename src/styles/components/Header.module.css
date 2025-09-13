@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--white);
+  background-color: var(--transparent);
   padding: 24px 0;
   position: fixed;
   width: 100%;
@@ -12,7 +12,7 @@
 }
 
 .headerScrolled {
-  background: rgba(255, 255, 255, 0.8);
+  background: var(--primaryDark);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   box-shadow: var(--low-shadow);
@@ -40,17 +40,17 @@
 }
 
 .navLinks li a {
-  color: var(--black);
+  color: var(--white);
 }
 
 .mobileNavLinks a {
-  color: var(--black);
+  color: var(--secondary);
 }
 
 .navLinks li a:hover {
-  color: var(--secondary);
+  color: var(--accent);
 }
 
 .mobileNavLinks a:hover {
-  color: var(--secondary);
+  color: var(--primary);
 }

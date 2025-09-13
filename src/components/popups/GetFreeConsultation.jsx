@@ -9,6 +9,7 @@ export default function GetFreeConsultation({
   variant,
   color,
   title = "Book a consultation",
+  btnEndIcon,
   size = "medium",
   isHighRounded,
   open,
@@ -33,6 +34,7 @@ export default function GetFreeConsultation({
         }}
       >
         {title}
+        {btnEndIcon ? <span className="btnEndIcon">{btnEndIcon}</span> : null}
       </Button>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle color="secondary">Get Free Consultation</DialogTitle>

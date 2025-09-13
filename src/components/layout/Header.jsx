@@ -59,7 +59,8 @@ const Header = () => {
               <GetFreeConsultation
                 variant={"contained"}
                 color={"secondary"}
-                title="Hire Now 🡵"
+                title="Hire Now"
+                btnEndIcon={"🡵"}
                 size="large"
                 open={isGetFreeConsultation}
                 setOpen={setIsGetFreeConsultation}
@@ -72,7 +73,7 @@ const Header = () => {
         </Container>
       </header>
       {/* Offset 145 header height, because header is position fixed*/}
-      <Box height={145}></Box>
+      {/* <Box height={145}></Box> */}
     </>
   );
 };

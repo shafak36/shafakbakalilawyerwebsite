@@ -1,10 +1,9 @@
-import { Typography } from "@mui/material";
+import HomePageHero from "@/components/pages/homepage/HomePageHero";
 
 export default function Home() {
   return (
     <>
-      <h1>Hello World!</h1>
-      <Typography variant="h1">Hello Material UI World!</Typography>
+      <HomePageHero sectionId="hero" />
     </>
   );
 }

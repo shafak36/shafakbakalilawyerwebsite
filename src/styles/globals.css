@@ -3,6 +3,8 @@
 /* --font-urbanist-sans */
 
 :root {
+  --header-offset-height: 145px;
+
   --desktop-max-width: 1440px;
   --tablet-max-width: 744px;
   --mobile-max-width: 430px;
@@ -13,29 +15,20 @@
 
   --debug-border: 1px dashed red;
 
-  --bg: #f5f5f5;
-  --white: #fff;
-  --grey: #e0e0e0;
+  --transparent: transparent;
   --black: #000;
-  --primary: #2c5086;
-  --secondary: #3b6ab3;
-  --secondaryLight: #c5d5ec;
-  --secondaryDark: #297d70;
-  --secondaryDarkRGB: rgba(rgba(41, 125, 112));
-  --accent: #ffc857;
-  --accentRGB: rgba(255, 200, 87);
+  --white: #fff;
+  --bg: #ede8de;
+  --primary: #354664;
+  --primaryLight: #9bacca;
+  --primaryDark: #121721;
+  --secondary: #635436;
+  --secondaryLight: #c9ba9c;
+  --secondaryDark: #211c12;
+  --accent: #d1ac30;
 
-  --bannerOverlayGradient: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.8) 0%,
-    rgba(0, 0, 0, 0.2) 100%
-  );
-
-  --bannerOverlayGradientToLeft: linear-gradient(
-    to left,
-    rgba(0, 0, 0, 0.8) 0%,
-    rgba(0, 0, 0, 0.2) 100%
-  );
+  --primaryOverlay: rgba(18, 23, 33, 0.8);
+  --secondaryOverlay: rgba(33, 28, 18, 0.8);
 
   --low-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   --low-light-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
@@ -57,11 +50,8 @@
   --z-index-header-mobile-menu: 200;
   --z-index-chat-bot: 500;
 
-  --viewportHeightHeroDesktop: 95vh;
-  --viewportHeightHeroTablet: 75vh;
-  --viewportHeightHeroMobile: 75vh;
-
-  --viewportHeightPagesHero: 75vh;
+  --fullViewportHeight: 100vh;
+  --fullViewportHeightWithHeader: calc(100vh - var(--header-offset-height));
 }
 
 * {
@@ -82,4 +72,32 @@ h4,
 h5,
 h6 {
   font-family: var(--font-cinzel-serif), serif;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.btnEndIcon {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+  margin-left: 8px;
+}
+
+@media (max-width: 1200px) and (min-width: 744px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 743px) {
+  h1 {
+    font-size: 40px;
+  }
 }

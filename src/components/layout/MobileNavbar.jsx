@@ -39,8 +39,8 @@ const MobileNavbar = () => {
 
   return (
     <>
-      <IconButton onClick={() => setOpen(true)}>
-        <MenuIcon fontSize="inherit" />
+      <IconButton size="large" color="primary" onClick={() => setOpen(true)}>
+        <MenuIcon fontSize="large" sx={{color: "var(--accent)"}} />
       </IconButton>
 
       {open && (
@@ -67,11 +67,11 @@ const MobileNavbar = () => {
             onClick={closeMenu}
             sx={{
               position: "fixed",
-              top: 16,
-              right: 16,
+              top: 40,
+              right: 24,
             }}
           >
-            <CloseIcon fontSize="inherit" />
+            <CloseIcon fontSize="large" />
           </IconButton>
           <Box
             sx={{
@@ -96,7 +96,7 @@ const MobileNavbar = () => {
           ))}
           <GetFreeConsultation
             variant={"contained"}
-            color={"secondary"}
+            color={"primary"}
             title="Hire Now 🡵"
             size="large"
             open={isGetFreeConsultation}
