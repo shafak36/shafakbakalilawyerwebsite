@@ -37,3 +37,9 @@
 .heroDescription {
   color: var(--white);
 }
+
+/* USP Section */
+
+.uspSection {
+  background-color: var(--primaryLight);
+}

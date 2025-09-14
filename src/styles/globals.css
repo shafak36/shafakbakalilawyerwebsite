@@ -79,14 +79,53 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.container-y-padding {
+  padding: 64px 0;
+}
+
+.overlineText {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: block;
+}
+
+.sectionTitle {
+  border: 1px solid var(--primary);
+  padding: 8px 32px;
+  border-radius: 64px;
+}
+
 @media (max-width: 1200px) and (min-width: 744px) {
   h1 {
     font-size: 48px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 32px;
   }
 }
 
 @media (max-width: 743px) {
   h1 {
     font-size: 40px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 24px;
   }
 }
