@@ -89,8 +89,13 @@ h3 {
   font-weight: 400;
 }
 
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .container-y-padding {
-  padding: 64px 0;
+  padding: 96px 0;
 }
 
 .overlineText {
@@ -116,6 +121,9 @@ h3 {
   h3 {
     font-size: 32px;
   }
+  h5 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 743px) {
@@ -127,5 +135,8 @@ h3 {
   }
   h3 {
     font-size: 24px;
+  }
+  h5 {
+    font-size: 16px;
   }
 }

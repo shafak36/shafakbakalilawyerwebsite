@@ -17,7 +17,7 @@ const HomePageUSP = ({ sectionID }) => {
           <Grid size={12}>
             <Stack alignItems={"center"} spacing={4}>
               <SectionTitle
-                subTitle={"Why Choose me"}
+                subTitle={"Why Choose Me"}
                 subTitleColor={"var(--white)"}
                 title={"About Us"}
                 titleColor={"var(--primary)"}

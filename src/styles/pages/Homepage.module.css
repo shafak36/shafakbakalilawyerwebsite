@@ -43,3 +43,9 @@
 .uspSection {
   background-color: var(--primaryLight);
 }
+
+/* Services Section */
+
+.servicesSection {
+  background-color: var(--bg);
+}
