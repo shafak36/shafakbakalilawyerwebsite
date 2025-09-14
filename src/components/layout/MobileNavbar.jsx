@@ -97,7 +97,8 @@ const MobileNavbar = () => {
           <GetFreeConsultation
             variant={"contained"}
             color={"primary"}
-            title="Hire Now 🡵"
+            title="Hire Now"
+            btnEndIcon={"🡭"}
             size="large"
             open={isGetFreeConsultation}
             setOpen={setIsGetFreeConsultation}

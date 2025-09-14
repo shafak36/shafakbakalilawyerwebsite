@@ -85,7 +85,7 @@ const HomePageHero = ({ sectionID }) => {
                           color="secondary"
                           sx={{ borderRadius: "var(--high-rounded-mui-btn)" }}
                         >
-                          Contact Us <span className="btnEndIcon">➔</span>
+                          Contact Us <span className="btnEndIcon">🡪</span>
                         </Button>
                       </Link>
                       <Box>

@@ -60,7 +60,7 @@ const Header = () => {
                 variant={"contained"}
                 color={"secondary"}
                 title="Hire Now"
-                btnEndIcon={"🡵"}
+                btnEndIcon={"🡭"}
                 size="large"
                 open={isGetFreeConsultation}
                 setOpen={setIsGetFreeConsultation}
