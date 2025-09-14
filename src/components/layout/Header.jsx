@@ -5,7 +5,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import { Box, Stack } from "@mui/material";
+import { Box } from "@mui/material";
+import ArrowOutwardSharpIcon from '@mui/icons-material/ArrowOutwardSharp';
 
 import Container from "@/components/layout/Container";
 import GetFreeConsultation from "@/components/popups/GetFreeConsultation";
@@ -60,7 +61,7 @@ const Header = () => {
                 variant={"contained"}
                 color={"secondary"}
                 title="Hire Now"
-                btnEndIcon={"🡭"}
+                btnEndIcon={<ArrowOutwardSharpIcon />}
                 size="large"
                 open={isGetFreeConsultation}
                 setOpen={setIsGetFreeConsultation}

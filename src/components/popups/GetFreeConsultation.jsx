@@ -27,6 +27,7 @@ export default function GetFreeConsultation({
         color={color}
         disableElevation
         onClick={() => setOpen(true)}
+        endIcon={btnEndIcon}
         sx={{
           borderRadius: isHighRounded
             ? "var(--high-rounded-mui-btn)"
@@ -34,7 +35,6 @@ export default function GetFreeConsultation({
         }}
       >
         {title}
-        {btnEndIcon ? <span className="btnEndIcon">{btnEndIcon}</span> : null}
       </Button>
       <Dialog open={open} onClose={handleClose}>
         <DialogTitle color="secondary">Get Free Consultation</DialogTitle>

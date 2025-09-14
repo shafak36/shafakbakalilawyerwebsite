@@ -6,6 +6,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { Box, Button, Chip, Grid, Stack } from "@mui/material";
+import EastSharpIcon from '@mui/icons-material/EastSharp';
+import ForwardToInboxSharpIcon from '@mui/icons-material/ForwardToInboxSharp';
+
 import * as motion from "motion/react-client";
 
 import Container from "@/components/layout/Container";
@@ -83,9 +86,10 @@ const HomePageHero = ({ sectionID }) => {
                           disableElevation
                           variant="contained"
                           color="secondary"
+                          endIcon={<EastSharpIcon />}
                           sx={{ borderRadius: "var(--high-rounded-mui-btn)" }}
                         >
-                          Contact Us <span className="btnEndIcon">🡪</span>
+                          Contact Us
                         </Button>
                       </Link>
                       <Box>
@@ -94,7 +98,7 @@ const HomePageHero = ({ sectionID }) => {
                           color="primary"
                           size="large"
                           title="Book Consultation"
-                          btnEndIcon={"✉"}
+                          btnEndIcon={<ForwardToInboxSharpIcon />}
                           isHighRounded
                           open={isGetFreeConsultation}
                           setOpen={setIsGetFreeConsultation}

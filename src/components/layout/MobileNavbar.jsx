@@ -7,6 +7,7 @@ import Image from "next/image";
 
 import { IconButton, Box } from "@mui/material";
 import { Menu as MenuIcon, Close as CloseIcon } from "@mui/icons-material";
+import ArrowOutwardSharpIcon from '@mui/icons-material/ArrowOutwardSharp';
 
 import GetFreeConsultation from "@/components/popups/GetFreeConsultation";
 
@@ -40,7 +41,7 @@ const MobileNavbar = () => {
   return (
     <>
       <IconButton size="large" color="primary" onClick={() => setOpen(true)}>
-        <MenuIcon fontSize="large" sx={{color: "var(--accent)"}} />
+        <MenuIcon fontSize="large" sx={{ color: "var(--accent)" }} />
       </IconButton>
 
       {open && (
@@ -98,7 +99,7 @@ const MobileNavbar = () => {
             variant={"contained"}
             color={"primary"}
             title="Hire Now"
-            btnEndIcon={"🡭"}
+            btnEndIcon={<ArrowOutwardSharpIcon />}
             size="large"
             open={isGetFreeConsultation}
             setOpen={setIsGetFreeConsultation}
