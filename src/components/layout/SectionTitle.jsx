@@ -6,7 +6,10 @@ const SectionTitle = ({ subTitle, subTitleColor, title, titleColor }) => {
       <span className="overlineText" style={{ color: subTitleColor }}>
         {subTitle}
       </span>
-      <h2 className="sectionTitle" style={{ color: titleColor }}>
+      <h2
+        className="sectionTitle"
+        style={{ color: titleColor, border: `1px solid ${titleColor}` }}
+      >
         {title}
       </h2>
     </Stack>
