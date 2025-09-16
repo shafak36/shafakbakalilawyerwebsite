@@ -71,3 +71,22 @@
   position: relative;
   z-index: var(--z-index-section-overlay-container);
 }
+
+/* Testimonials Section */
+
+.testimonialSection {
+  background-color: var(--secondaryDark);
+}
+
+.superQuote {
+  color: var(--white);
+  font-size: 128px;
+  line-height: 1;
+}
+
+.subQuote {
+  color: var(--white);
+  font-size: 128px;
+  line-height: 1;
+  margin-bottom: -150px;
+}
