@@ -90,3 +90,9 @@
   line-height: 1;
   margin-bottom: -150px;
 }
+
+/* Blog Section */
+
+.blogSection {
+  background-color: var(--secondaryLight);
+}

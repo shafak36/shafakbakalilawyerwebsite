@@ -47,6 +47,8 @@
   --z-index-hero-container: 2;
   --z-index-section-overlay: 11;
   --z-index-section-overlay-container: 12;
+  --z-index-blog-preview-image: 21;
+  --z-index-blog-preview-details: 22;
   --z-index-header: 50;
   --z-index-header-menu: 100;
   --z-index-header-mobile-menu: 200;

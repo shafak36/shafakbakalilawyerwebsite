@@ -14,4 +14,9 @@ Photo by <a href="https://unsplash.com/@clarissemeyer?utm_content=creditCopyText
 
 <a href="https://www.flaticon.com/free-icons/legal" title="legal icons">Legal icons created by Paul J. - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/academic" title="academic icons">Academic icons created by Design View - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/friends" title="friends icons">Friends icons created by Freepik - Flaticon</a>      
+<a href="https://www.flaticon.com/free-icons/friends" title="friends icons">Friends icons created by Freepik - Flaticon</a>
+
+Photo by <a href="https://unsplash.com/@jccards?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marek Studzinski</a> on <a href="https://unsplash.com/photos/three-buttons-with-people-and-a-broken-heart-on-them-uRT9s_QBC1o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@wesleyphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Wesley Tingey</a> on <a href="https://unsplash.com/photos/white-and-black-wooden-sign-board-HrvOZJnO2pk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@flyd2069?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">FlyD</a> on <a href="https://unsplash.com/photos/black-laptop-computer-with-white-paper-P3-YKLS2VKA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                  

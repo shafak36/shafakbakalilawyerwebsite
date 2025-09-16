@@ -3,6 +3,7 @@ import HomePageUSP from "@/components/pages/homepage/HomePageUSP";
 import HomePageServices from "@/components/pages/homepage/HomePageServices";
 import HomePageAboutMe from "@/components/pages/homepage/HomePageAboutMe";
 import HomePageTestimonials from "@/components/pages/homepage/HomePageTestimonials";
+import HomePageBlog from "@/components/pages/homepage/HomePageBlog";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <HomePageServices sectionID={"services"} />
       <HomePageAboutMe sectionID={"about-me"} />
       <HomePageTestimonials sectionID="testimonials" />
+      <HomePageBlog sectionID="blog" />
     </>
   );
 }
