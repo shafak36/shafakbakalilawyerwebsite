@@ -3,6 +3,7 @@ import { Cinzel, Urbanist } from "next/font/google";
 import { ThemeProvider } from "@mui/material";
 
 import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 import theme from "@/theme/theme";
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider theme={theme}>
           <Header />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

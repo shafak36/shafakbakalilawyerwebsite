@@ -1,0 +1,40 @@
+.footer {
+  background-color: var(--primaryDark);
+  padding: 64px 0;
+  border-top: 2px solid var(--accent);
+}
+
+.footer h4 {
+  color: var(--accent);
+}
+
+.footer p {
+  color: var(--white);
+}
+
+.footer h5 {
+  color: var(--accent);
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.coursesList {
+  list-style: none;
+}
+
+.personalList {
+  list-style: none;
+}
+
+.coursesList li {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer a:hover {
+  color: var(--accent);
+}
