@@ -8,6 +8,7 @@ import Footer from "@/components/layout/Footer";
 import theme from "@/theme/theme";
 
 import "@/styles/globals.css";
+import ChatBox from "@/components/popups/ChatBox";
 
 const cinzel = Cinzel({ variable: "--font-cinzel-serif", subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Footer />
+          <ChatBox />
         </ThemeProvider>
       </body>
     </html>
