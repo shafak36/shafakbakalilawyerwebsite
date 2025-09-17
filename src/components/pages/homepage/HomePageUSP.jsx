@@ -11,7 +11,7 @@ import styles from "@/styles/pages/Homepage.module.css";
 
 const HomePageUSP = ({ sectionID }) => {
   return (
-    <section id={sectionID} className={styles.uspSection}>
+    <section id={sectionID} className={`${styles.uspSection} primaryNoiseSurfaceBackground`}>
       <Container className="container-y-padding">
         <Grid container>
           <Grid size={12}>
@@ -20,7 +20,7 @@ const HomePageUSP = ({ sectionID }) => {
                 subTitle={"Why Choose Me"}
                 subTitleColor={"var(--white)"}
                 title={"About Us"}
-                titleColor={"var(--primary)"}
+                titleColor={"var(--primaryDark)"}
               />
               <h3
                 style={{

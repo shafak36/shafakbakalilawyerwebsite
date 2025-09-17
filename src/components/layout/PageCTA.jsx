@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import { Grid, Stack } from "@mui/material";
 import ForwardToInboxSharpIcon from "@mui/icons-material/ForwardToInboxSharp";
-import CallSharpIcon from '@mui/icons-material/CallSharp';
+import CallSharpIcon from "@mui/icons-material/CallSharp";
 
 import Container from "@/components/layout/Container";
 import GetFreeConsultation from "@/components/popups/GetFreeConsultation";
@@ -24,7 +24,12 @@ const PageCTA = ({ pageId, textured = false }) => {
     >
       <Container className="container-y-padding">
         <Grid container spacing={2}>
-          <Grid size={{ xs: 12, lg: 6 }}>
+          <Grid
+            size={{ xs: 12, lg: 6 }}
+            display={"flex"}
+            justifyContent={"center"}
+            alignItems={"center"}
+          >
             <Stack
               spacing={4}
               alignItems={{ xs: "center", lg: "flex-start" }}
@@ -47,8 +52,14 @@ const PageCTA = ({ pageId, textured = false }) => {
             justifyContent={"center"}
             alignItems={"center"}
           >
-            <Stack bgcolor={"var(--primaryDark)"} p={5} spacing={2} alignItems={"center"}>
-              <CallSharpIcon fontSize="large" sx={{color:"var(--white)"}}/>
+            <Stack
+              bgcolor={"var(--primaryDark)"}
+              p={5}
+              spacing={2}
+              alignItems={"center"}
+              sx={{ border: "4px double var(--white)" }}
+            >
+              <CallSharpIcon fontSize="large" sx={{ color: "var(--white)" }} />
               <h3>+91-8956784556</h3>
               <GetFreeConsultation
                 variant={"contained"}

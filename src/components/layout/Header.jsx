@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import { Box } from "@mui/material";
-import ArrowOutwardSharpIcon from '@mui/icons-material/ArrowOutwardSharp';
+import { Box, Stack } from "@mui/material";
+import ArrowOutwardSharpIcon from "@mui/icons-material/ArrowOutwardSharp";
 
 import Container from "@/components/layout/Container";
 import GetFreeConsultation from "@/components/popups/GetFreeConsultation";
@@ -66,6 +66,13 @@ const Header = () => {
                 open={isGetFreeConsultation}
                 setOpen={setIsGetFreeConsultation}
               />
+            </Box>
+            <Box sx={{ display: { xs: "block", sm: "none" } }}>
+              <Stack alignItems={"center"} sx={{color:"var(--accent)"}}>
+                <span>Advocate</span>
+                <h3 style={{ color: "var(--accent)" }}>Shafak Bakali</h3>
+                <span>& Associates</span>
+              </Stack>
             </Box>
             <Box sx={{ display: { xs: "block", sm: "none" } }}>
               <MobileNavbar />
