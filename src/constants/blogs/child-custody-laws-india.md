@@ -1,7 +1,7 @@
 ---
 title: "Understanding Child Custody Laws in India: A Guide for Parents"
 slug: "child-custody-laws-india"
-date: "2025-09-17"
+date: "2025-07-15"
 description: "A clear guide for parents on how child custody is decided in India, including types of custody, legal provisions, and factors courts consider to protect the child’s best interests."
 coverImage: "/blog/child-custody-laws-india.webp"
 tag: "Consulting"

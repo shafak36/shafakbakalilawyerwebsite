@@ -1,0 +1,1 @@
+export const featuredBlogsIndex = [3, 5, 7]; // Out of 9 blogs

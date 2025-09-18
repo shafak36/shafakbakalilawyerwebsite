@@ -1,7 +1,7 @@
 ---
 title: "5 Things to Know Before Filing for Divorce in Pune"
 slug: "divorce-filing-pune-guide"
-date: "2025-09-17"
+date: "2025-09-03"
 description: "Planning to file for divorce in Pune? Here are five essential legal and practical insights to help you prepare, protect your rights, and navigate the process smoothly."
 coverImage: "/blog/divorce-filing-pune-guide.webp"
 tag: "Consulting"

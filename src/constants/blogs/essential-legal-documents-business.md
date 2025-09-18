@@ -1,7 +1,7 @@
 ---
 title: "Essential Legal Documents Every Business Owner Should Have"
 slug: "essential-legal-documents-business"
-date: "2025-09-17"
+date: "2025-07-11"
 description: "A practical checklist of must-have legal documents for business owners in India to protect their interests, comply with the law, and operate smoothly."
 coverImage: "/blog/essential-legal-documents-business.webp"
 tag: "Consulting"

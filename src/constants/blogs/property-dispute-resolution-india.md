@@ -1,7 +1,7 @@
 ---
 title: "Understanding Property Dispute Resolution in India"
 slug: "property-dispute-resolution-india"
-date: "2025-09-17"
+date: "2025-07-16"
 description: "Explore how property disputes are resolved in India, including legal procedures, common causes, and practical steps to protect your rights. Learn when to seek legal help and how courts handle these cases."
 coverImage: "/blog/property-dispute-resolution-india.webp"
 tag: "Consulting"

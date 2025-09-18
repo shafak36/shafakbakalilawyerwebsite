@@ -1,7 +1,7 @@
 ---
 title: "Cyber Crime Complaints: A Step-by-Step Guide"
 slug: "cyber-crime-complaints-india"
-date: "2025-09-17"
+date: "2025-08-14"
 description: "Learn how to file a cyber crime complaint in India, including where to report, what documents you need, and how the legal process works. Protect yourself from online fraud, hacking, and digital harassment."
 coverImage: "/blog/cyber-crime-complaints-india.webp"
 tag: "Consulting"

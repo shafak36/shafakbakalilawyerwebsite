@@ -1,7 +1,7 @@
 ---
 title: "How to Prepare for Your First Court Hearing in a Civil or Criminal Case"
 slug: "prepare-first-court-hearing"
-date: "2025-09-17"
+date: "2025-09-12"
 description: "A practical guide to help you prepare for your first court hearing in India, whether it’s a civil or criminal matter. Learn what to expect, what to bring, and how to present yourself effectively."
 coverImage: "/blog/prepare-first-court-hearing.webp"
 tag: "Consulting"

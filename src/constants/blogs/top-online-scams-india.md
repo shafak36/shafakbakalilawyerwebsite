@@ -1,7 +1,7 @@
 ---
 title: "Top 5 Online Scams in India and How to Protect Yourself"
 slug: "top-online-scams-india"
-date: "2025-09-17"
+date: "2025-09-16"
 description: "Stay informed about the most common online scams in India and learn practical steps to protect yourself from fraud, identity theft, and financial loss."
 coverImage: "/blog/top-online-scams-india.webp"
 tag: "Consulting"

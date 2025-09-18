@@ -1,7 +1,7 @@
 ---
 title: "A Beginner’s Guide to Property Registration and Due Diligence in India"
 slug: "property-registration-due-diligence-india"
-date: "2025-09-17"
+date: "2025-08-25"
 description: "Learn the step-by-step process of property registration in India and the importance of due diligence to ensure a safe and legal transaction."
 coverImage: "/blog/property-registration-due-diligence-india.webp"
 tag: "Consulting"

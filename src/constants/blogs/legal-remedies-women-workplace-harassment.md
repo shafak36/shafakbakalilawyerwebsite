@@ -1,7 +1,7 @@
 ---
 title: "Know Your Rights: Legal Remedies for Women Facing Workplace Harassment"
 slug: "legal-remedies-women-workplace-harassment"
-date: "2025-09-17"
+date: "2025-08-07"
 description: "A comprehensive guide for women in India on recognizing workplace harassment, understanding legal protections, and taking action to safeguard their rights."
 coverImage: "/blog/legal-remedies-women-workplace-harassment.webp"
 tag: "Consulting"
