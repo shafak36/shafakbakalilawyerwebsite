@@ -48,7 +48,7 @@ const HomePageHero = ({ sectionID }) => {
           <div className={styles.heroContent}>
             <Grid
               container
-              height={"var(--fullViewportHeight)"}
+              minHeight={"var(--fullViewportHeight)"}
               marginTop={{
                 xs: "var(--header-offset-height)",
                 sm: "var(--header-offset-height)",
