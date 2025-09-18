@@ -29,15 +29,7 @@ const AboutPageHero = ({ sectionID }) => {
             alignItems={"center"}
             justifyContent={"center"}
           >
-            <Grid
-              size={12}
-              maxWidth={1100}
-              alignSelf={{
-                xs: "flex-start",
-                sm: "center",
-                lg: "center",
-              }}
-            >
+            <Grid size={12} maxWidth={1100}>
               <Stack spacing={4}>
                 <Box position={"relative"} height={400}>
                   <Image

@@ -1,6 +1,6 @@
 .heroImageSection {
   position: relative;
-  height: var(--fullViewportHeight);
+  min-height: var(--fullViewportHeight);
   overflow: hidden;
   background: url("/shafakbakaliaboutpagehero.webp");
   background-size: cover;

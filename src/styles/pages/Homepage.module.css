@@ -1,6 +1,6 @@
 .heroVideoSection {
   position: relative;
-  height: var(--fullViewportHeight);
+  min-height: var(--fullViewportHeight);
   overflow: hidden;
 }
 
