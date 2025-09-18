@@ -1,0 +1,39 @@
+.heroImageSection {
+  position: relative;
+  height: var(--fullViewportHeight);
+  overflow: hidden;
+  background: url("/shafakbakaliaboutpagehero.webp");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--primaryOverlay);
+  z-index: var(--z-index-hero-video-overlay);
+}
+
+.heroContent {
+  position: relative;
+  z-index: var(--z-index-hero-container);
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px) and (min-width: 744px) {
+  .heroImageSection {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 743px) {
+  .heroImageSection {
+    background-size: cover;
+    background-position: 75% center;
+  }
+}

@@ -137,7 +137,6 @@ const HomePageHero = ({ sectionID }) => {
                       style={{
                         objectFit: "contain",
                         transform: "scale(1)",
-                        boxShadow: "var(--medium-light-shadow)",
                       }}
                     />
                   </Box>
