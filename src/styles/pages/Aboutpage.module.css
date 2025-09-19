@@ -29,6 +29,12 @@
   background-color: var(--secondaryDark);
 }
 
+/* Achievements Section */
+
+.achievementsSection {
+  background-color: var(--secondaryLight);
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) and (min-width: 744px) {
