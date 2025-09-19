@@ -35,6 +35,12 @@
   background-color: var(--secondaryLight);
 }
 
+/* Achievements Section */
+
+.appearancesSection {
+  background-color: var(--bg);
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) and (min-width: 744px) {

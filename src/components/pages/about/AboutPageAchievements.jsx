@@ -9,7 +9,7 @@ import llbDegree from "../../../../public/llbdegree.webp";
 import punebarassociation from "../../../../public/punebarassociation.webp";
 import punecitypresident from "../../../../public/punecitypresident.webp";
 
-import styles from "@/styles/pages/Homepage.module.css";
+import styles from "@/styles/pages/Aboutpage.module.css";
 
 const AboutPageAchievements = ({ sectionID }) => {
   return (

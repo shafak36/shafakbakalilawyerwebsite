@@ -13,6 +13,8 @@
   --tablet-padding: 30px;
   --mobile-padding: 20px;
 
+  --container-padding: 96px;
+
   --debug-border: 1px dashed red;
 
   --transparent: transparent;
@@ -104,7 +106,7 @@ h5 {
 }
 
 .container-y-padding {
-  padding: 96px 0;
+  padding: var(--container-padding) 0;
 }
 
 .overlineText {
