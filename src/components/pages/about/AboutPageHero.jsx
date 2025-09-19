@@ -4,6 +4,8 @@ import Image from "next/image";
 
 import { Box, Grid, Stack } from "@mui/material";
 
+import * as motion from "motion/react-client";
+
 import Container from "@/components/layout/Container";
 
 import aboutPagePicture from "../../../../public/shafakbakaliaboutpagepicture.webp";
@@ -31,18 +33,24 @@ const AboutPageHero = ({ sectionID }) => {
           >
             <Grid size={12} maxWidth={1100}>
               <Stack spacing={4}>
-                <Box position={"relative"} height={400}>
-                  <Image
-                    src={aboutPagePicture}
-                    alt={"Advocate Shafak Bakali"}
-                    fill
-                    sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    style={{
-                      objectFit: "contain",
-                      transform: "scale(1)",
-                    }}
-                  />
-                </Box>
+                <motion.div
+                  initial={{ opacity: 0, y: 50 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  <Box position={"relative"} height={400}>
+                    <Image
+                      src={aboutPagePicture}
+                      alt={"Advocate Shafak Bakali"}
+                      fill
+                      sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      style={{
+                        objectFit: "contain",
+                        transform: "scale(1)",
+                      }}
+                    />
+                  </Box>
+                </motion.div>
                 <h3
                   style={{
                     color: "var(--accent)",

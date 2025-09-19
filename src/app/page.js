@@ -9,7 +9,7 @@ import PageCTA from "@/components/layout/PageCTA";
 export default function Home() {
   return (
     <>
-      <HomePageHero sectionId="hero" />
+      <HomePageHero sectionID="hero" />
       <HomePageUSP sectionID={"usp"} />
       <HomePageServices sectionID={"services"} />
       <HomePageAboutMe sectionID={"about-me"} />

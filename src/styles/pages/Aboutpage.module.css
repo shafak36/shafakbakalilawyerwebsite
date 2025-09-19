@@ -23,6 +23,12 @@
   z-index: var(--z-index-hero-container);
 }
 
+/* Education Section */
+
+.educationSection {
+  background-color: var(--secondaryDark);
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) and (min-width: 744px) {
