@@ -23,6 +23,41 @@
   z-index: var(--z-index-hero-container);
 }
 
+/* Practice Areas - Litigation Services */
+
+.practiceAreaLitigationServices {
+  background: url("/litigation.webp");
+  min-height: var(--fullViewportHeight);
+}
+
+/* Practice Areas - RealEstate Services */
+
+.practiceAreaRealEstateServices {
+  background: url("/realestate.webp");
+  min-height: var(--fullViewportHeight);
+}
+
+/* Practice Areas - Divorce Services */
+
+.practiceAreaDivorceServices {
+  background: url("/divorce.webp");
+  min-height: var(--fullViewportHeight);
+}
+
+/* Practice Areas - Documentation Services */
+
+.practiceAreaDocumentationServices {
+  background: url("/legaldocument.webp");
+  min-height: var(--fullViewportHeight);
+}
+
+/* Practice Areas - CyberLaw Services */
+
+.practiceAreaCyberServices {
+  background: url("/cyberlaw.webp");
+  min-height: var(--fullViewportHeight);
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) and (min-width: 744px) {
@@ -35,5 +70,25 @@
   .heroImageSection {
     background-size: cover;
     background-position: 75% center;
+  }
+
+  .practiceAreaLitigationServices {
+    min-height: 40vh;
+  }
+
+  .practiceAreaDivorceServices {
+    min-height: 40vh;
+  }
+
+  .practiceAreaRealEstateServices {
+    min-height: 40vh;
+  }
+
+  .practiceAreaDocumentationServices {
+    min-height: 40vh;
+  }
+
+  .practiceAreaCyberServices {
+    min-height: 40vh;
   }
 }
