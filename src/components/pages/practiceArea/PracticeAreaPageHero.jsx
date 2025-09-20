@@ -31,26 +31,32 @@ const PracticeAreaPageHero = ({ sectionID }) => {
             alignItems={"center"}
             justifyContent={"center"}
           >
-            <Grid size={12} maxWidth={1100}>
+            <Grid size={12} alignSelf={{ xs: "center", lg: "flex-end" }}>
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                <Box position={"relative"} height={400}>
+                  <Image
+                    src={practiceareaPagePicture}
+                    alt={"Advocate Shafak Bakali"}
+                    fill
+                    sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    style={{
+                      objectFit: "contain",
+                      transform: "scale(1)",
+                    }}
+                  />
+                </Box>
+              </motion.div>
+            </Grid>
+            <Grid
+              size={12}
+              maxWidth={800}
+              alignSelf={{ xs: "flex-start", lg: "center" }}
+            >
               <Stack spacing={4}>
-                <motion.div
-                  initial={{ opacity: 0, y: 50 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <Box position={"relative"} height={400}>
-                    <Image
-                      src={practiceareaPagePicture}
-                      alt={"Advocate Shafak Bakali"}
-                      fill
-                      sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      style={{
-                        objectFit: "contain",
-                        transform: "scale(1)",
-                      }}
-                    />
-                  </Box>
-                </motion.div>
                 <h1
                   style={{
                     color: "var(--accent)",

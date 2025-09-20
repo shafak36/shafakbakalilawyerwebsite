@@ -30,13 +30,23 @@ const AboutPageAppearances = ({ sectionID }) => {
           </Grid>
         </Grid>
       </Container>
-      <Grid container pb={"var(--container-padding)"}>
+      <Grid
+        container
+        sx={{
+          border: "2px solid var(--primary)",
+          overflow: "clip",
+          mx: { xs: 2, md: 0 },
+          mb: 2,
+        }}
+      >
         <Grid
           size={{ xs: 12, md: 6 }}
           display={"flex"}
           justifyContent={"center"}
           alignItems={"center"}
           bgcolor={"var(--primary)"}
+          px={{ xs: 2, md: 0 }}
+          height={{ xs: "300px", md: "500px" }}
         >
           <Stack spacing={2} my={2}>
             <h4 style={{ color: "var(--white)" }}>
@@ -47,7 +57,11 @@ const AboutPageAppearances = ({ sectionID }) => {
             </h3>
           </Stack>
         </Grid>
-        <Grid size={{ xs: 12, md: 6 }} position={"relative"} height={"500px"}>
+        <Grid
+          size={{ xs: 12, md: 6 }}
+          position={"relative"}
+          height={{ xs: "300px", md: "500px" }}
+        >
           <Image
             src={humanrightscommision}
             alt="Signature styled Shafak Bakali Text"
@@ -56,8 +70,21 @@ const AboutPageAppearances = ({ sectionID }) => {
           />
         </Grid>
       </Grid>
-      <Grid container pb={"var(--container-padding)"}>
-        <Grid size={{ xs: 12, md: 6 }} position={"relative"} height={"500px"}>
+
+      <Grid
+        container
+        sx={{
+          border: "2px solid var(--primary)",
+          overflow: "clip",
+          mx: { xs: 2, md: 0 },
+          mb: 2,
+        }}
+      >
+        <Grid
+          size={{ xs: 12, md: 6 }}
+          position={"relative"}
+          height={{ xs: "300px", md: "500px" }}
+        >
           <Image
             src={bombaycourt}
             alt="Signature styled Shafak Bakali Text"
@@ -71,6 +98,8 @@ const AboutPageAppearances = ({ sectionID }) => {
           justifyContent={"center"}
           alignItems={"center"}
           bgcolor={"var(--primary)"}
+          height={{ xs: "300px", md: "500px" }}
+          px={{ xs: 2, md: 0 }}
         >
           <Stack spacing={2} my={2}>
             <h4 style={{ color: "var(--white)" }}>Mumbai Courts</h4>
@@ -80,13 +109,23 @@ const AboutPageAppearances = ({ sectionID }) => {
           </Stack>
         </Grid>
       </Grid>
-      <Grid container pb={"var(--container-padding)"}>
+      <Grid
+        container
+        sx={{
+          border: "2px solid var(--primary)",
+          overflow: "clip",
+          mx: { xs: 2, md: 0 },
+          mb: 2,
+        }}
+      >
         <Grid
           size={{ xs: 12, md: 6 }}
           display={"flex"}
           justifyContent={"center"}
           alignItems={"center"}
           bgcolor={"var(--primary)"}
+          height={{ xs: "300px", md: "500px" }}
+          px={{ xs: 2, md: 0 }}
         >
           <Stack spacing={2} my={2}>
             <h4 style={{ color: "var(--white)" }}>Nashik Courts</h4>
@@ -95,7 +134,11 @@ const AboutPageAppearances = ({ sectionID }) => {
             </h3>
           </Stack>
         </Grid>
-        <Grid size={{ xs: 12, md: 6 }} position={"relative"} height={"500px"}>
+        <Grid
+          size={{ xs: 12, md: 6 }}
+          position={"relative"}
+          height={{ xs: "300px", md: "500px" }}
+        >
           <Image
             src={nashikcourt}
             alt="Signature styled Shafak Bakali Text"
@@ -104,8 +147,20 @@ const AboutPageAppearances = ({ sectionID }) => {
           />
         </Grid>
       </Grid>
-      <Grid container pb={"var(--container-padding)"}>
-        <Grid size={{ xs: 12, md: 6 }} position={"relative"} height={"500px"}>
+      <Grid
+        container
+        sx={{
+          border: "2px solid var(--primary)",
+          overflow: "clip",
+          mx: { xs: 2, md: 0 },
+          mb: 2,
+        }}
+      >
+        <Grid
+          size={{ xs: 12, md: 6 }}
+          position={"relative"}
+          height={{ xs: "300px", md: "500px" }}
+        >
           <Image
             src={aurangabadcourt}
             alt="Signature styled Shafak Bakali Text"
@@ -119,6 +174,8 @@ const AboutPageAppearances = ({ sectionID }) => {
           justifyContent={"center"}
           alignItems={"center"}
           bgcolor={"var(--primary)"}
+          height={{ xs: "300px", md: "500px" }}
+          px={{ xs: 2, md: 0 }}
         >
           <Stack spacing={2} my={2}>
             <h4 style={{ color: "var(--white)" }}>Aurangabad Courts</h4>
@@ -128,13 +185,23 @@ const AboutPageAppearances = ({ sectionID }) => {
           </Stack>
         </Grid>
       </Grid>
-      <Grid container pb={"var(--container-padding)"}>
+      <Grid
+        container
+        sx={{
+          border: "2px solid var(--primary)",
+          overflow: "clip",
+          mx: { xs: 2, md: 0 },
+          mb: 2,
+        }}
+      >
         <Grid
           size={{ xs: 12, md: 6 }}
           display={"flex"}
           justifyContent={"center"}
           alignItems={"center"}
           bgcolor={"var(--primary)"}
+          height={{ xs: "300px", md: "500px" }}
+          px={{ xs: 2, md: 0 }}
         >
           <Stack spacing={2} my={2}>
             <h4 style={{ color: "var(--white)" }}>Waqf Tribunal</h4>
@@ -143,7 +210,11 @@ const AboutPageAppearances = ({ sectionID }) => {
             </h3>
           </Stack>
         </Grid>
-        <Grid size={{ xs: 12, md: 6 }} position={"relative"} height={"500px"}>
+        <Grid
+          size={{ xs: 12, md: 6 }}
+          position={"relative"}
+          height={{ xs: "300px", md: "500px" }}
+        >
           <Image
             src={waqfboard}
             alt="Signature styled Shafak Bakali Text"
