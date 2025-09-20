@@ -28,7 +28,12 @@ const PracticeAreaServices = ({
               display={"flex"}
               alignItems={"center"}
             >
-              <Stack spacing={2} p={2} bgcolor={"var(--primaryOverlay)"}>
+              <Stack
+                spacing={2}
+                p={2}
+                border={"4px double white"}
+                bgcolor={"var(--primaryOverlay)"}
+              >
                 <h2 style={{ color: "var(--white)" }}>
                   Civil & Criminal Litigation
                 </h2>
@@ -57,7 +62,12 @@ const PracticeAreaServices = ({
               display={"flex"}
               alignItems={"center"}
             >
-              <Stack spacing={2} p={2} bgcolor={"var(--primaryOverlay)"}>
+              <Stack
+                spacing={2}
+                p={2}
+                border={"4px double white"}
+                bgcolor={"var(--primaryOverlay)"}
+              >
                 <h2 style={{ color: "var(--white)" }}>
                   Family Law & Divorce Matters
                 </h2>
@@ -85,7 +95,12 @@ const PracticeAreaServices = ({
               display={"flex"}
               alignItems={"center"}
             >
-              <Stack spacing={2} p={2} bgcolor={"var(--primaryOverlay)"}>
+              <Stack
+                spacing={2}
+                p={2}
+                border={"4px double white"}
+                bgcolor={"var(--primaryOverlay)"}
+              >
                 <h2 style={{ color: "var(--white)" }}>
                   Property & Real Estate Law
                 </h2>
@@ -114,7 +129,12 @@ const PracticeAreaServices = ({
               display={"flex"}
               alignItems={"center"}
             >
-              <Stack spacing={2} p={2} bgcolor={"var(--primaryOverlay)"}>
+              <Stack
+                spacing={2}
+                p={2}
+                border={"4px double white"}
+                bgcolor={"var(--primaryOverlay)"}
+              >
                 <h2 style={{ color: "var(--white)" }}>
                   Legal Documentation & Agreements
                 </h2>
@@ -142,7 +162,12 @@ const PracticeAreaServices = ({
               display={"flex"}
               alignItems={"center"}
             >
-              <Stack spacing={2} p={2} bgcolor={"var(--primaryOverlay)"}>
+              <Stack
+                spacing={2}
+                p={2}
+                border={"4px double white"}
+                bgcolor={"var(--primaryOverlay)"}
+              >
                 <h2 style={{ color: "var(--white)" }}>Cyber Crime</h2>
                 <p style={{ color: "var(--white)" }}>
                   Filing complaints, guiding through due process, and handling

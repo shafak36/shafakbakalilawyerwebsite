@@ -1,3 +1,4 @@
+import PageCTA from "@/components/layout/PageCTA";
 import PracticeAreaPageHero from "@/components/pages/practiceArea/PracticeAreaPageHero";
 import PracticeAreaServices from "@/components/pages/practiceArea/PracticeAreaServices";
 
@@ -12,6 +13,7 @@ export default function About() {
         fourthSectionID={"legal-documentation"}
         fifthSectionID={"cyber-crime-law"}
       />
+      <PageCTA pageId="page-cta" />
     </>
   );
 }
