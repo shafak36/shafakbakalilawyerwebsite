@@ -28,3 +28,9 @@
 .contactPageFormSection {
   background-color: var(--primaryLight);
 }
+
+/* Maps Section */
+
+.contactPageMapsSection {
+  background-color: var(--primary);
+}
