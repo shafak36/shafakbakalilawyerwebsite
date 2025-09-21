@@ -22,3 +22,9 @@
   position: relative;
   z-index: var(--z-index-hero-container);
 }
+
+/* Form Section */
+
+.contactPageFormSection {
+  background-color: var(--primaryLight);
+}
