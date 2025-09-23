@@ -6,13 +6,28 @@ import * as motion from "motion/react-client";
 
 import Container from "@/components/layout/Container";
 
-import contactPagePicture from "../../../../public/contactpagepicture.webp";
+import contactPagePicture from "../../../../public/contactpagepicture2.webp";
 
 import styles from "@/styles/pages/Contactpage.module.css";
 
 const ContactPageHero = ({ sectionID }) => {
   return (
-    <section id={sectionID} className={styles.heroImageSection}>
+    <section id={sectionID} className={styles.heroVideoSection}>
+      {/* Background video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline // Important for iOS devices
+        className={styles.heroVideo}
+      >
+        <source src="/contactusvideo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+        <img
+          src="/contactusvideo-fallback.webp"
+          alt="A status of a lady holding scale, in a lawyer office"
+        />
+      </video>
       {/* Video Overlay (optional - for better text contrast) */}
       <div className={styles.heroOverlay}></div>
 

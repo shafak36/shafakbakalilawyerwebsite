@@ -9,7 +9,7 @@ import academicSuccess from "../../../../public/academic-success.png";
 import court from "../../../../public/court.png";
 import support from "../../../../public/support.png";
 import aboutmebg from "../../../../public/aboutmebg.webp";
-import aboutmeimage from "../../../../public/aboutmeimage.webp";
+import aboutmeimage from "../../../../public/aboutmeimage2.webp";
 
 import styles from "@/styles/pages/Homepage.module.css";
 
