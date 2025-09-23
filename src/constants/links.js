@@ -5,6 +5,13 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 
+import {
+  facebook,
+  instagram,
+  linkedin,
+  whatsapp,
+} from "./personalInformation";
+
 export const headerNavItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
@@ -13,26 +20,25 @@ export const headerNavItems = [
   { label: "Blog", href: "/blog" },
 ];
 
-
 export const socialLinks = [
   {
     label: "Facebook",
-    href: "https://facebook.com",
+    href: `https://facebook.com/${facebook}`,
     icon: FaFacebookF,
   },
   {
     label: "Instagram",
-    href: "https://instagram.com",
+    href: `https://instagram.com/${instagram}`,
     icon: FaInstagram,
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com",
+    href: `https://linkedin.com/in/${linkedin}`,
     icon: FaLinkedinIn,
   },
   {
     label: "WhatsApp",
-    href: `https://wa.me/+91-8956784556`,
+    href: `https://wa.me/${whatsapp}`,
     icon: FaWhatsapp,
   },
 ];

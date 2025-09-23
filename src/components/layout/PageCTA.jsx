@@ -10,6 +10,8 @@ import Container from "@/components/layout/Container";
 import GetFreeConsultation from "@/components/popups/GetFreeConsultation";
 import SectionTitle from "@/components/layout/SectionTitle";
 
+import { phoneNumber } from "@/constants/personalInformation";
+
 import styles from "@/styles/components/PageCTA.module.css";
 
 const PageCTA = ({ pageId, textured = false }) => {
@@ -60,7 +62,7 @@ const PageCTA = ({ pageId, textured = false }) => {
               sx={{ border: "4px double var(--white)" }}
             >
               <CallSharpIcon fontSize="large" sx={{ color: "var(--white)" }} />
-              <h3>+91-8956784556</h3>
+              <h3>{phoneNumber}</h3>
               <GetFreeConsultation
                 variant={"contained"}
                 color={"primary"}

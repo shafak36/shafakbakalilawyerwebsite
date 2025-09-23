@@ -8,6 +8,7 @@ import { Grid, Stack } from "@mui/material";
 import Container from "@/components/layout/Container";
 
 import { socialLinks } from "@/constants/links";
+import { emailAddress, phoneNumber } from "@/constants/personalInformation";
 
 import shafakBakaliFullLogo from "../../../public/shafakbakaliandassociateslogo.png";
 
@@ -79,8 +80,8 @@ const Footer = () => {
             <Stack spacing={4}>
               <h5>Contact</h5>
               <Stack spacing={1}>
-                <a href={`tel:+91-8956784556`}>+91-8956784556</a>
-                <a href={`mailto:lawyer@gmail.com`}>lawyer@gmail.com</a>
+                <a href={`tel:${phoneNumber}`}>{phoneNumber}</a>
+                <a href={`mailto:${emailAddress}`}>{emailAddress}</a>
               </Stack>
               <h5>Follow Us</h5>
               <Stack
