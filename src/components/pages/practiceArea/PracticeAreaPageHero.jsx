@@ -38,7 +38,7 @@ const PracticeAreaPageHero = ({ sectionID }) => {
                 <Box position={"relative"} height={400}>
                   <Image
                     src={practiceareaPagePicture}
-                    alt={"Advocate Shafak Bakali"}
+                    alt={"Advocate Shafak Bakali - Practice Areas"}
                     fill
                     sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     style={{

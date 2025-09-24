@@ -64,7 +64,7 @@ const AboutPageAppearances = ({ sectionID }) => {
         >
           <Image
             src={humanrightscommision}
-            alt="Signature styled Shafak Bakali Text"
+            alt="Human rights commision building"
             fill
             style={{ objectFit: "cover" }}
           />
@@ -87,7 +87,7 @@ const AboutPageAppearances = ({ sectionID }) => {
         >
           <Image
             src={bombaycourt}
-            alt="Signature styled Shafak Bakali Text"
+            alt="Bombay high court building"
             fill
             style={{ objectFit: "cover" }}
           />
@@ -141,7 +141,7 @@ const AboutPageAppearances = ({ sectionID }) => {
         >
           <Image
             src={nashikcourt}
-            alt="Signature styled Shafak Bakali Text"
+            alt="Nashik Court"
             fill
             style={{ objectFit: "cover" }}
           />
@@ -163,7 +163,7 @@ const AboutPageAppearances = ({ sectionID }) => {
         >
           <Image
             src={aurangabadcourt}
-            alt="Signature styled Shafak Bakali Text"
+            alt="Aurangabaad Court"
             fill
             style={{ objectFit: "cover" }}
           />
@@ -217,7 +217,7 @@ const AboutPageAppearances = ({ sectionID }) => {
         >
           <Image
             src={waqfboard}
-            alt="Signature styled Shafak Bakali Text"
+            alt="Waqf board"
             fill
             style={{ objectFit: "cover" }}
           />

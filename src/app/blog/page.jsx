@@ -36,7 +36,7 @@ export default function Blogs() {
         <Image
           src={blogsHero}
           alt={
-            "A typewriter with a paper and a line of text quoting something worth reading"
+            "A fountain pen placed on a paper"
           }
           fill
           style={{ objectFit: "cover" }}

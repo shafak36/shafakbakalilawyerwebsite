@@ -25,7 +25,7 @@ const ContactPageRegister = ({ sectionID }) => {
           >
             <Image
               src={formBanner}
-              alt="A person in black suit holding tech vista code business card"
+              alt="A female 3d illustration, filling a form"
               fill
               style={{ objectFit: "cover" }}
             />

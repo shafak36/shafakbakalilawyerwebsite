@@ -5,7 +5,7 @@ import PracticeAreaServices from "@/components/pages/practiceArea/PracticeAreaSe
 export default function About() {
   return (
     <>
-      <PracticeAreaPageHero sectionID="hero" />
+      <PracticeAreaPageHero sectionID="main" />
       <PracticeAreaServices
         firstSectionID={"litigation"}
         secondSectionID={"family-law"}

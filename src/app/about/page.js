@@ -8,7 +8,7 @@ import PageCTA from "@/components/layout/PageCTA";
 export default function About() {
   return (
     <>
-      <AboutPageHero sectionID="hero" />
+      <AboutPageHero sectionID="main" />
       <AboutPageEducation sectionID="education" />
       <AboutPageAchievements sectionID="achievements" />
       <AboutPageAppearances sectionID="court-appearances" />

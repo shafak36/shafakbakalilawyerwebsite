@@ -68,7 +68,7 @@ const AboutPageAchievements = ({ sectionID }) => {
                     >
                       <Image
                         src={member}
-                        alt={"Shafak Bakali - LL.B. (Bachelor of Laws) Degree"}
+                        alt={"Shafak Bakali - Member, Bar Council of Pune, Pune Family Court Association"}
                         fill
                         style={{
                           objectFit: "contain",
@@ -93,7 +93,7 @@ const AboutPageAchievements = ({ sectionID }) => {
                     >
                       <Image
                         src={president}
-                        alt={"Shafak Bakali - LL.B. (Bachelor of Laws) Degree"}
+                        alt={"Shafak Bakali - Pune City President, Women Cell, Anti-Crime Organisation"}
                         fill
                         style={{
                           objectFit: "contain",
