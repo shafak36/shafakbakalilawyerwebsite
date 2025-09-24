@@ -44,7 +44,7 @@ const HomePageAboutMe = ({ sectionID }) => {
                   >
                     <Image
                       src={aboutmeimage}
-                      alt={"Shafak bakali and shafak bakali in her office"}
+                      alt={"Advocate Shafak Bakali in her office wearing official lawyer outfit"}
                       fill
                       style={{
                         objectFit: "contain",

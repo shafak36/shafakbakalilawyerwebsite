@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import * as motion from "motion/react-client";
+
 import { Box, Grid, Stack } from "@mui/material";
 
 import Container from "@/components/layout/Container";
@@ -34,162 +36,204 @@ const HomePageServices = ({ sectionID }) => {
                     bgcolor={"var(--white)"}
                     p={5}
                   >
-                    <Box>
-                      <Stack spacing={2}>
-                        <Image
-                          src={criminalLaw}
-                          alt={"Criminal Law"}
-                          width={100}
-                          style={{
-                            border: "2px solid var(--black)",
-                            padding: "16px",
-                            borderRadius: "50%",
-                          }}
-                        />
-                        <h5 style={{ color: "var(--primaryDark)" }}>
-                          Civil & Criminal Litigation
-                        </h5>
-                        <p style={{ color: "var(--primaryDark)" }}>
-                          Strong representation in court with a focus on
-                          protecting your rights.
-                        </p>
-                      </Stack>
-                    </Box>
+                    <motion.div
+                      initial={{ opacity: 0, y: 50 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5 }}
+                      viewport={{ once: true }}
+                    >
+                      <Box>
+                        <Stack spacing={2}>
+                          <Image
+                            src={criminalLaw}
+                            alt={"Criminal Law"}
+                            width={100}
+                            style={{
+                              border: "2px solid var(--black)",
+                              padding: "16px",
+                              borderRadius: "50%",
+                            }}
+                          />
+                          <h5 style={{ color: "var(--primaryDark)" }}>
+                            Civil & Criminal Litigation
+                          </h5>
+                          <p style={{ color: "var(--primaryDark)" }}>
+                            Strong representation in court with a focus on
+                            protecting your rights.
+                          </p>
+                        </Stack>
+                      </Box>
+                    </motion.div>
                   </Grid>
                   <Grid
                     size={{ xs: 12, md: 6, lg: 4 }}
                     bgcolor={"var(--white)"}
                     p={5}
                   >
-                    <Box>
-                      <Stack spacing={2}>
-                        <Image
-                          src={familyLaw}
-                          alt={"Family Law"}
-                          width={100}
-                          style={{
-                            border: "2px solid var(--black)",
-                            padding: "16px",
-                            borderRadius: "50%",
-                          }}
-                        />
-                        <h5 style={{ color: "var(--primaryDark)" }}>
-                          Family Law & Divorce Matters
-                        </h5>
-                        <p style={{ color: "var(--primaryDark)" }}>
-                          Compassionate guidance in disputes involving marriage,
-                          custody, alimony, and property.
-                        </p>
-                      </Stack>
-                    </Box>
+                    <motion.div
+                      initial={{ opacity: 0, y: 50 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 0.5 }}
+                      viewport={{ once: true }}
+                    >
+                      <Box>
+                        <Stack spacing={2}>
+                          <Image
+                            src={familyLaw}
+                            alt={"Family Law"}
+                            width={100}
+                            style={{
+                              border: "2px solid var(--black)",
+                              padding: "16px",
+                              borderRadius: "50%",
+                            }}
+                          />
+                          <h5 style={{ color: "var(--primaryDark)" }}>
+                            Family Law & Divorce Matters
+                          </h5>
+                          <p style={{ color: "var(--primaryDark)" }}>
+                            Compassionate guidance in disputes involving
+                            marriage, custody, alimony, and property.
+                          </p>
+                        </Stack>
+                      </Box>
+                    </motion.div>
                   </Grid>
                   <Grid
                     size={{ xs: 12, md: 6, lg: 4 }}
                     bgcolor={"var(--white)"}
                     p={5}
                   >
-                    <Box>
-                      <Stack spacing={2}>
-                        <Image
-                          src={propertyLaw}
-                          alt={"Property Law"}
-                          width={100}
-                          style={{
-                            border: "2px solid var(--black)",
-                            padding: "16px",
-                            borderRadius: "50%",
-                          }}
-                        />
-                        <h5 style={{ color: "var(--primaryDark)" }}>
-                          Property & Real Estate Law
-                        </h5>
-                        <p style={{ color: "var(--primaryDark)" }}>
-                          Assistance with disputes, agreements, registrations,
-                          and due diligence.
-                        </p>
-                      </Stack>
-                    </Box>
+                    <motion.div
+                      initial={{ opacity: 0, y: 50 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 1.0 }}
+                      viewport={{ once: true }}
+                    >
+                      <Box>
+                        <Stack spacing={2}>
+                          <Image
+                            src={propertyLaw}
+                            alt={"Property Law"}
+                            width={100}
+                            style={{
+                              border: "2px solid var(--black)",
+                              padding: "16px",
+                              borderRadius: "50%",
+                            }}
+                          />
+                          <h5 style={{ color: "var(--primaryDark)" }}>
+                            Property & Real Estate Law
+                          </h5>
+                          <p style={{ color: "var(--primaryDark)" }}>
+                            Assistance with disputes, agreements, registrations,
+                            and due diligence.
+                          </p>
+                        </Stack>
+                      </Box>
+                    </motion.div>
                   </Grid>
                   <Grid
                     size={{ xs: 12, md: 6, lg: 4 }}
                     bgcolor={"var(--white)"}
                     p={5}
                   >
-                    <Box>
-                      <Stack spacing={2}>
-                        <Image
-                          src={legalDocs}
-                          alt={"Legal Documentation"}
-                          width={100}
-                          style={{
-                            border: "2px solid var(--black)",
-                            padding: "16px",
-                            borderRadius: "50%",
-                          }}
-                        />
-                        <h5 style={{ color: "var(--primaryDark)" }}>
-                          Legal Documentation
-                        </h5>
-                        <p style={{ color: "var(--primaryDark)" }}>
-                          Drafting and reviewing MoUs, notices, affidavits, and
-                          contracts with precision.
-                        </p>
-                      </Stack>
-                    </Box>
+                    <motion.div
+                      initial={{ opacity: 0, y: 50 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 1.0 }}
+                      viewport={{ once: true }}
+                    >
+                      <Box>
+                        <Stack spacing={2}>
+                          <Image
+                            src={legalDocs}
+                            alt={"Legal Documentation"}
+                            width={100}
+                            style={{
+                              border: "2px solid var(--black)",
+                              padding: "16px",
+                              borderRadius: "50%",
+                            }}
+                          />
+                          <h5 style={{ color: "var(--primaryDark)" }}>
+                            Legal Documentation
+                          </h5>
+                          <p style={{ color: "var(--primaryDark)" }}>
+                            Drafting and reviewing MoUs, notices, affidavits,
+                            and contracts with precision.
+                          </p>
+                        </Stack>
+                      </Box>
+                    </motion.div>
                   </Grid>
                   <Grid
                     size={{ xs: 12, md: 6, lg: 4 }}
                     bgcolor={"var(--white)"}
                     p={5}
                   >
-                    <Box>
-                      <Stack spacing={2}>
-                        <Image
-                          src={cyberCrime}
-                          alt={"Cyber crime"}
-                          width={100}
-                          style={{
-                            border: "2px solid var(--black)",
-                            padding: "16px",
-                            borderRadius: "50%",
-                          }}
-                        />
-                        <h5 style={{ color: "var(--primaryDark)" }}>
-                          Cyber Crime
-                        </h5>
-                        <p style={{ color: "var(--primaryDark)" }}>
-                          Filing complaints and guiding you through due legal
-                          process.
-                        </p>
-                      </Stack>
-                    </Box>
+                    <motion.div
+                      initial={{ opacity: 0, y: 50 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 1.5 }}
+                      viewport={{ once: true }}
+                    >
+                      <Box>
+                        <Stack spacing={2}>
+                          <Image
+                            src={cyberCrime}
+                            alt={"Cyber crime"}
+                            width={100}
+                            style={{
+                              border: "2px solid var(--black)",
+                              padding: "16px",
+                              borderRadius: "50%",
+                            }}
+                          />
+                          <h5 style={{ color: "var(--primaryDark)" }}>
+                            Cyber Crime
+                          </h5>
+                          <p style={{ color: "var(--primaryDark)" }}>
+                            Filing complaints and guiding you through due legal
+                            process.
+                          </p>
+                        </Stack>
+                      </Box>
+                    </motion.div>
                   </Grid>
                   <Grid
                     size={{ xs: 12, md: 6, lg: 4 }}
                     bgcolor={"var(--white)"}
                     p={5}
                   >
-                    <Box>
-                      <Stack spacing={2}>
-                        <Image
-                          src={auctionHammer}
-                          alt={"Law hammer Women advocacy"}
-                          width={100}
-                          style={{
-                            border: "2px solid var(--black)",
-                            padding: "16px",
-                            borderRadius: "50%",
-                          }}
-                        />
-                        <h5 style={{ color: "var(--primaryDark)" }}>
-                          Women’s Rights & Advocacy
-                        </h5>
-                        <p style={{ color: "var(--primaryDark)" }}>
-                          Legal support for women in matters of harassment,
-                          domestic violence, property rights.
-                        </p>
-                      </Stack>
-                    </Box>
+                    <motion.div
+                      initial={{ opacity: 0, y: 50 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5, delay: 2.0 }}
+                      viewport={{ once: true }}
+                    >
+                      <Box>
+                        <Stack spacing={2}>
+                          <Image
+                            src={auctionHammer}
+                            alt={"Women's Right Advocacy"}
+                            width={100}
+                            style={{
+                              border: "2px solid var(--black)",
+                              padding: "16px",
+                              borderRadius: "50%",
+                            }}
+                          />
+                          <h5 style={{ color: "var(--primaryDark)" }}>
+                            Women’s Rights & Advocacy
+                          </h5>
+                          <p style={{ color: "var(--primaryDark)" }}>
+                            Legal support for women in matters of harassment,
+                            domestic violence, property rights.
+                          </p>
+                        </Stack>
+                      </Box>
+                    </motion.div>
                   </Grid>
                 </Grid>
               </Box>

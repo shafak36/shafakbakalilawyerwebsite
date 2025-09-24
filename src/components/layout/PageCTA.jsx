@@ -65,7 +65,7 @@ const PageCTA = ({ pageId, textured = false }) => {
                 <Box height={"100px"} width={"100px"} position={"relative"}>
                   <Image
                     src={advocateLogo}
-                    alt={"Advocate Shafak Bakali"}
+                    alt={"Advocate Outfit Logo"}
                     fill
                     sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     style={{

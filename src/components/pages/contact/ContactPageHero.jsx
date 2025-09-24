@@ -25,7 +25,7 @@ const ContactPageHero = ({ sectionID }) => {
         Your browser does not support the video tag.
         <img
           src="/contactusvideo-fallback.webp"
-          alt="A status of a lady holding scale, in a lawyer office"
+          alt="woman talking over the phone inside the office"
         />
       </video>
       {/* Video Overlay (optional - for better text contrast) */}

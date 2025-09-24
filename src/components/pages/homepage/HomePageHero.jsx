@@ -36,7 +36,7 @@ const HomePageHero = ({ sectionID }) => {
           Your browser does not support the video tag.
           <img
             src="/homepage-hero-video-fallback.webp"
-            alt="A status of a lady holding scale, in a lawyer office"
+            alt="female figurine holding a scale and a certificate on a frame"
           />
         </video>
 
