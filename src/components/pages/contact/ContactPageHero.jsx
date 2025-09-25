@@ -12,9 +12,9 @@ import styles from "@/styles/pages/Contactpage.module.css";
 
 const ContactPageHero = ({ sectionID }) => {
   return (
-    <section id={sectionID} className={styles.heroVideoSection}>
+    <section id={sectionID} className={styles.heroImageSection}>
       {/* Background video */}
-      <video
+      {/* <video
         autoPlay
         loop
         muted
@@ -27,7 +27,7 @@ const ContactPageHero = ({ sectionID }) => {
           src="/contactusvideo-fallback.webp"
           alt="woman talking over the phone inside the office"
         />
-      </video>
+      </video> */}
       {/* Video Overlay (optional - for better text contrast) */}
       <div className={styles.heroOverlay}></div>
 
