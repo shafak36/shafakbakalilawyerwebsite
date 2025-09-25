@@ -73,7 +73,7 @@ const HomePageServices = ({ sectionID }) => {
                     <motion.div
                       initial={{ opacity: 0, y: 50 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 0.5 }}
+                      transition={{ duration: 0.5, delay: 0.2 }}
                       viewport={{ once: true }}
                     >
                       <Box>
@@ -107,7 +107,7 @@ const HomePageServices = ({ sectionID }) => {
                     <motion.div
                       initial={{ opacity: 0, y: 50 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 1.0 }}
+                      transition={{ duration: 0.5, delay: 0.4 }}
                       viewport={{ once: true }}
                     >
                       <Box>
@@ -141,7 +141,7 @@ const HomePageServices = ({ sectionID }) => {
                     <motion.div
                       initial={{ opacity: 0, y: 50 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 1.0 }}
+                      transition={{ duration: 0.5, delay: 0.6 }}
                       viewport={{ once: true }}
                     >
                       <Box>
@@ -175,7 +175,7 @@ const HomePageServices = ({ sectionID }) => {
                     <motion.div
                       initial={{ opacity: 0, y: 50 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 1.5 }}
+                      transition={{ duration: 0.5, delay: 0.8 }}
                       viewport={{ once: true }}
                     >
                       <Box>
@@ -209,7 +209,7 @@ const HomePageServices = ({ sectionID }) => {
                     <motion.div
                       initial={{ opacity: 0, y: 50 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 2.0 }}
+                      transition={{ duration: 0.5, delay: 1.0 }}
                       viewport={{ once: true }}
                     >
                       <Box>

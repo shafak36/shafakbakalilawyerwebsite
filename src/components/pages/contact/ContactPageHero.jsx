@@ -21,7 +21,7 @@ const ContactPageHero = ({ sectionID }) => {
         playsInline // Important for iOS devices
         className={styles.heroVideo}
       >
-        <source src="/contactusvideo-1.mp4" type="video/mp4" />
+        <source src="/contactusvideo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
         <img
           src="/contactusvideo-fallback.webp"
