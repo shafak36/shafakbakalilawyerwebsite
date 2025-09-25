@@ -2,12 +2,10 @@
 
 import { useState } from "react";
 
-import { Button, MenuItem, Stack, TextField } from "@mui/material";
+import { Button, Stack, TextField } from "@mui/material";
 
-// import { trackOptionsCompetitionsRegister } from "@/constants/competitionContent";
-
-// import { competitionFormSchema } from "@/validations/competitionFormSchema";
-// import { competitionRegistrationAction } from "@/actions/competitionRegistrationAction";
+import { contactUsFormSchema } from "@/validations/contactUsFormSchema";
+import { contactUsRegistrationAction } from "@/actions/contactUsRegistrationAction";
 
 const ContactUsRegistration = ({ themeColor = "primary" }) => {
   const [formErrors, setFormErrors] = useState({});
@@ -25,8 +23,7 @@ const ContactUsRegistration = ({ themeColor = "primary" }) => {
       setFormErrors({});
 
       // Validate using the imported Zod schema
-      //   TODO Connect this
-      const validationResult = competitionFormSchema.safeParse(formJson);
+      const validationResult = contactUsFormSchema.safeParse(formJson);
 
       if (!validationResult.success) {
         // Map Zod validation errors to formErrors state using forEach
@@ -43,8 +40,7 @@ const ContactUsRegistration = ({ themeColor = "primary" }) => {
       }
 
       // Proceed to server action if validation passes
-      //   TODO Connect this
-      //   const res = await competitionRegistrationAction(validationResult.data);
+      const res = await contactUsRegistrationAction(validationResult.data);
 
       // Check for a success flag from the server response
       if (res.success) {
@@ -73,8 +69,8 @@ const ContactUsRegistration = ({ themeColor = "primary" }) => {
             color={themeColor}
             required
             margin="dense"
-            id="name"
-            name="name"
+            id="fname"
+            name="fname"
             label="First Name"
             type="text"
             variant="outlined"
@@ -86,8 +82,8 @@ const ContactUsRegistration = ({ themeColor = "primary" }) => {
             color={themeColor}
             required
             margin="dense"
-            id="name"
-            name="name"
+            id="lname"
+            name="lname"
             label="Last Name"
             type="text"
             variant="outlined"
@@ -96,18 +92,6 @@ const ContactUsRegistration = ({ themeColor = "primary" }) => {
             fullWidth
           />
         </Stack>
-        {/* <TextField
-          color={themeColor}
-          required
-          margin="dense"
-          id="name"
-          name="name"
-          label="Full Name"
-          type="text"
-          variant="outlined"
-          error={!!formErrors.name}
-          helperText={formErrors.name}
-        /> */}
         <TextField
           color={themeColor}
           required
@@ -132,35 +116,7 @@ const ContactUsRegistration = ({ themeColor = "primary" }) => {
           error={!!formErrors.phone}
           helperText={formErrors.phone}
         />
-        {/* <TextField
-          color={themeColor}
-          required
-          margin="dense"
-          id="city"
-          name="city"
-          label="City"
-          type="text"
-          variant="outlined"
-          error={!!formErrors.city}
-          helperText={formErrors.city}
-        /> */}
-        {/* <TextField
-          color={themeColor}
-          margin="dense"
-          id="interestedCompetition"
-          name="interestedCompetition"
-          select
-          label="Select Competition"
-          defaultValue="python-showdown"
-          error={!!formErrors.intrestedCompetition}
-          helperText={formErrors.intrestedCompetition}
-        >
-          {trackOptionsCompetitionsRegister.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </TextField> */}
+
         <TextField
           color={themeColor}
           required
@@ -184,7 +140,6 @@ const ContactUsRegistration = ({ themeColor = "primary" }) => {
           loading={formLoading}
           loadingIndicator="Submitting..."
         >
-          
           Contact Us
         </Button>
       </Stack>

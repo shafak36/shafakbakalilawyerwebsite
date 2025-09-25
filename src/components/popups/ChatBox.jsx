@@ -19,9 +19,9 @@ import ShafakBakaliBot from "../../../public/shafakbakalibot.svg";
 
 import styles from "@/styles/components/Chatbox.module.css";
 
-// TODO connect these later
-// import { aiAssistFormSchema } from "@/validations/aiAssistFormSchema";
-// import { aiAssistRegistrationAction } from "@/actions/aiAssistRegistrationAction";
+
+import { aiAssistFormSchema } from "@/validations/aiAssistFormSchema";
+import { aiAssistRegistrationAction } from "@/actions/aiAssistRegistrationAction";
 
 const ChatBox = () => {
   const [messages, setMessages] = useState([]);
@@ -97,7 +97,10 @@ const ChatBox = () => {
     addMessage(type, "user");
 
     setTimeout(() => {
-      addMessage(`Understood. As a ${type}, what type of legal service are you looking for today?`, "bot");
+      addMessage(
+        `Understood. As a ${type}, what type of legal service are you looking for today?`,
+        "bot"
+      );
       setStep(3);
     }, 500);
   };
@@ -149,13 +152,19 @@ const ChatBox = () => {
       const response = await aiAssistRegistrationAction(finalData);
       setTimeout(() => {
         if (response.success) {
-          addMessage("Thank you for sharing your details. One of our lawyers will contact you shortly to discuss your case.", "bot");
+          addMessage(
+            "Thank you for sharing your details. One of our lawyers will contact you shortly to discuss your case.",
+            "bot"
+          );
         }
         setIsSubmitted(true);
       }, 500);
     } catch (error) {
       console.error("Error during submission:", error);
-      addMessage("Apologies, something went wrong while submitting your request. Please try again or call our office directly.", "bot");
+      addMessage(
+        "Apologies, something went wrong while submitting your request. Please try again or call our office directly.",
+        "bot"
+      );
     }
   };
 
