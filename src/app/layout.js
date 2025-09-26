@@ -40,7 +40,7 @@ export const metadata = {
   openGraph: {
     title: "Adv. Shafak A. Bakali | Trusted Legal Counsel in Pune",
     description:
-      "Advocate Shafak A. Bakali offers legal expertise in criminal, civil, cyber law, and more. Book a consultation with a High Court lawyer in Pune.",
+      "Advocate Shafak A. Bakali offers legal expertise in family cases and divorce, criminal, civil, cyber law, and more. Book a consultation with a High Court lawyer in Pune.",
     url: "https://www.shafakbakali.com",
     siteName: "Adv. Shafak A. Bakali",
     images: [
