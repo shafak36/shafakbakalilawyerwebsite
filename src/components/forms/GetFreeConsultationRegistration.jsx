@@ -83,6 +83,8 @@ const GetFreeConsultationRegistration = ({ themeColor, handleClose }) => {
         alert(res.message);
         // Reset the form and clear errors upon success
         event.target.reset();
+        // Close the popup only after a successful submission
+        handleClose();
       } else {
         // Handle server-side errors
         alert(res.message || "Registration failed! Please try again.");
@@ -94,7 +96,6 @@ const GetFreeConsultationRegistration = ({ themeColor, handleClose }) => {
     } finally {
       // Always stop the loading state
       setFormLoading(false);
-      handleClose();
     }
   };
 

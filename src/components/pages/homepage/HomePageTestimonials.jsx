@@ -21,6 +21,15 @@ const HomePageTestimonials = ({ sectionID }) => {
     {
       text: "Her clarity and dedication made all the difference in my case.",
     },
+    {
+      text: "Calm, confident, and always prepared to act.",
+    },
+    {
+      text: "She handled my legal issue with precision and care.",
+    },
+    {
+      text: "Trustworthy advice and clear communication throughout.",
+    },
   ];
 
   const goToNext = () => {
