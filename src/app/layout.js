@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/next";
+
 import { Cinzel, Urbanist } from "next/font/google";
 
 import { ThemeProvider } from "@mui/material";
@@ -73,6 +75,7 @@ export default function RootLayout({ children }) {
           <Footer />
           <ChatBox />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
