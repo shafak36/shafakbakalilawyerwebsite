@@ -21,9 +21,9 @@ const urbanist = Urbanist({
 
 export const metadata = {
   title:
-    "Adv. Shafak A. Bakali | High Court Lawyer in Pune for Criminal, Civil & Cyber Law",
+    "Adv. Shafak A. Bakali | High Court Lawyer in Pune for family cases and divorce, Criminal, Civil & Cyber Law",
   description:
-    "Get expert legal guidance from Adv. Shafak A. Bakali, High Court Advocate in Pune. Specializing in criminal, civil, cyber law, documentation, and notary services.",
+    "Get expert legal guidance from Adv. Shafak A. Bakali, High Court Advocate in Pune. Specializing in family cases and divorce, criminal, civil, cyber law, documentation, and notary services.",
   keywords: [
     "lawyer in Pune",
     "lawyer in Mumbai",
@@ -57,7 +57,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Adv. Shafak A. Bakali | Legal Expertise You Can Trust",
     description:
-      "Connect with Adv. Shafak A. Bakali, High Court Advocate in Pune. Specializing in criminal, civil, and cyber law cases.",
+      "Connect with Adv. Shafak A. Bakali, High Court Advocate in Pune. Specializing in family cases and divorce, criminal, civil, and cyber law cases.",
     images: ["/opengraph-image.jpg"],
     creator: "@shafakbakali",
   },
